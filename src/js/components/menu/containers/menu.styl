@@ -1,0 +1,42 @@
+.main-menu
+    padding .5em 0
+.menus 
+    display flex 
+    flex-direction column
+    margin .5em
+    &-item 
+        display flex 
+        align-items center
+        border-bottom 1px solid gray
+        padding .5em 0
+        width 100%
+        &-image 
+            width 120px 
+            height 90px
+        &-wrapper 
+            width 100%
+            padding-left .5em
+            &-link 
+                display block 
+                color #eeeeee
+
+@media (min-width: 576px) 
+    .menus 
+        flex-direction row
+        &-item 
+            width 320px
+            flex-direction column 
+            padding .5em
+            margin .5em
+            &-image 
+                height 150px
+                width 200px
+            &-wrapper 
+                padding .5em 0 0 0
+
+@media (min-width: 1000px) 
+    .menus 
+        &-item 
+            &-image 
+                height 180px
+                width 240px
