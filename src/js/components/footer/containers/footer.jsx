@@ -11,7 +11,7 @@ const Footer = (props) => {
                     className='slogan grey-text text-lighten-4 right hover-underline text-shadow-black' 
                     target='_blank' 
                     rel="noopener noreferrer" 
-                    href='http://qygconsultores.com/'> {props.footer.website} </a>
+                    href='http://agricolaandrea.com/'> {props.footer.website} </a>
             </div>
         </footer>
     );
